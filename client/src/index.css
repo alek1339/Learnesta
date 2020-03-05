@@ -1,0 +1,19 @@
+body{
+  background-image: url('./images/background.png');
+  background-size: contain
+}
+
+.logo{
+  height: 90px;
+}
+.navbar-nav li a{
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.footer-links a {
+  color: white;
+}
+.footer-links{
+  display: flex;
+}
