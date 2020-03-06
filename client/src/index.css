@@ -17,3 +17,6 @@ body{
 .footer-links{
   display: flex;
 }
+.color-blk{
+  color: black;
+}

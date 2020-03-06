@@ -16,6 +16,7 @@ import Footer from './components/layout/Footer'
 import Dashboard from './components/layout/Dashboard'
 import Login from './components/auth/Login'
 import Register from './components/auth/Register'
+import ListeningExercises from './components/admin/ListeningExercises'
 
 
 // Check for token
@@ -49,6 +50,7 @@ class App extends Component {
               <PrivateRoute exact path='/dashboard' component={Dashboard} />
               
               <Route exact path='/register' component={Register} />
+              <Route exact path='/listening-exercises' component={ListeningExercises} />
             </Switch>
             <Footer />
           </div>

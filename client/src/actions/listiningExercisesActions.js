@@ -4,7 +4,7 @@ import {
 import axios from 'axios'
 
 export const fetchListeningExercises = () => dispatch => {
-    axios.get('/api/cars/edit-cars')
+    axios.get('/exercises/listening-exercises')
         .then(res => dispatch({
             type: FETCH_LISTENING_EXERCISES,
             payload: res.data
